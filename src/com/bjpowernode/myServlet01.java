@@ -11,6 +11,7 @@ public class myServlet01 extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("进入到servlet01");
         try {
+            System.out.println(11);
             Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
